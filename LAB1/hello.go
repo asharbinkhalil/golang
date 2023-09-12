@@ -11,6 +11,7 @@ type Person struct
 }
 
 
+
 func paasingarray() {
     array1:= []string{"ashar", "ali", "khan"}
     array2:= array1
@@ -37,11 +38,14 @@ func arrays() {
     fmt.Println(len(arr2))
   }
 
-  func passstructtoarray_task1(obj Person) {
-    fmt.Println(obj.name)
-  }
+func passstructtoarray_task1(obj Person) {
+    fmt.Println("Name: ",obj.name)
+    fmt.Println("Age: ",obj.age)
+    fmt.Println("Weight",obj.weight)
+    fmt.Println("Height: ",obj.height)
+}
+
 func main() {
-    fmt.Println("hello world")
     //items := []int{1,2,3,4,5,6,7,8,9,10}
     //fmt.Println(items)
 
@@ -66,6 +70,6 @@ func main() {
 
     var obj2 = Person{"ali", 25, 70.5, 5.8}
     //fmt.Println(obj2)
-    passstructtoarray(obj2)
+    passstructtoarray_task1(obj2)
 
 }
