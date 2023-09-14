@@ -10,8 +10,6 @@ type Person struct
     height float32
 }
 
-
-
 func paasingarray() {
     array1:= []string{"ashar", "ali", "khan"}
     array2:= array1

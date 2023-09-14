@@ -15,6 +15,7 @@ type company struct
 }
 
 func main(){
+	
 	emp1 := employee{"Amir", 80000, "Full-Stack Developer"}
 	emp2 := employee{"Ali", 60000, "Front-End Developer"}
 	emp3 := employee{"Ahmed", 50000, "Back-End Developer"}
